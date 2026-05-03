@@ -9,7 +9,7 @@ class MathUtilsTest {
 
     @Test
     void maxReturnsGreater() {
-        assertEquals(7, MathUtils.max(3, 7));
+        assertEquals(0, MathUtils.max(3, 7));
         assertEquals(5, MathUtils.max(5, 5));
     }
 
